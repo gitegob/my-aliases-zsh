@@ -1,8 +1,9 @@
 # my-aliases-zsh
 Aliases that make my development a breeze.
 
-```js
-# add these to the ~/.zshrc or ~/.bashrc file on linux or mac
+```bash
+# add these to the ~/.zshrc (if you use zsh) or ~/.bashrc (if you use bash) file on linux or mac
+# you can add or remove some to suit your own preferences
 
 alias cl='clear'
 alias c.='code .'
