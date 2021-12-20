@@ -33,4 +33,17 @@ alias yad='yarn add -D'
 alias sai='sudo apt-get install'
 alias sau='sudo apt-get update'
 alias fla='flutter pub add'
+alias pyman='python manage.py'
+alias pyserve='python manage.py runserver'
+alias pyserve5000='python manage.py runserver 0.0.0.0:5000'
+pinstall() {
+	for var in "$@"
+		do
+    	pip install $var
+		done
+		pip freeze > requirements.txt
+}
+killport(){
+	sudo kill -9 $(sudo lsof -t -i:$1)
+ }
 ```
