@@ -40,4 +40,10 @@ pinstall() {
 killport(){
 	sudo kill -9 $(sudo lsof -t -i:$1)
  }
+
+# This is to convert generated UUIDs by uuidgen to lowercase
+# on mac only because linux already generates them in lowercase
+if [[ `uname` == Darwin ]] then
+	alias uuidgen='uuidgen | tr "[:upper:]" "[:lower:]"'
+fi
 ```
