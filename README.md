@@ -4,7 +4,7 @@ Aliases that make my development a breeze.
 It is better to have [Oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) installed since it provides some basic aliases out of the box as well.
 
 ```bash
-# add these to the ~/.zshrc (if you use zsh) or ~/.bashrc (if you use bash) file on linux or mac
+# add these to the ~/.zshrc (if you use zsh) or ~/.bashrc (if you use bash)
 # you can add or remove some to suit your own preferences
 
 alias cl='clear'
